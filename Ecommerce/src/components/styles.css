@@ -1,0 +1,39 @@
+.profile-link {
+    text-decoration: none;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-button {
+    margin: 0 10px; /* Adjust the margin between the buttons */
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .button-style {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-style:hover {
+    background-color: #2980b9;
+  }
+  
